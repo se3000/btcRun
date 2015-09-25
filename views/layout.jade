@@ -6,5 +6,9 @@ html(ng-app='btcRun')
     script(type='text/javascript', src="javascripts/vendor/angular.js")
     script(type='text/javascript', src="javascripts/vendor/angular-ui-router.js")
     script(type='text/javascript', src="javascripts/btc-run.js")
+
+    script(type='text/ng-template' id="home.html")
+      include ./pages/home
+
   body
     block content
