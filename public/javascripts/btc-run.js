@@ -6,9 +6,9 @@ btcRun.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider,
 
   $stateProvider
     .state('home', {
-      url: "/",
       controller: 'homeController',
-      templateUrl: "home.html"
+      templateUrl: "home.html",
+      url: "/"
     });
 }]);
 
