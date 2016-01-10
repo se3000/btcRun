@@ -1,0 +1,25 @@
+{
+  "name": "btc_run",
+  "version": "0.0.1",
+  "authors": [
+    "Steve Ellis <email@steveell.is>"
+  ],
+  "description": "web interface for Bitcoin's Script",
+  "keywords": [
+    "bitcoin",
+    "script"
+  ],
+  "license": "MIT",
+  "homepage": "btc.run",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.2.3",
+    "paper-input": "PolymerElements/paper-input#^1.0.0"
+  }
+}
